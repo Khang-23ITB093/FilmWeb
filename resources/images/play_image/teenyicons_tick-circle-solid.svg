@@ -1,0 +1,10 @@
+<svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="teenyicons:tick-circle-solid" clip-path="url(#clip0_1_1893)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M0 16.5C0 12.2565 1.68571 8.18687 4.68629 5.18629C7.68687 2.18571 11.7565 0.5 16 0.5C20.2435 0.5 24.3131 2.18571 27.3137 5.18629C30.3143 8.18687 32 12.2565 32 16.5C32 20.7435 30.3143 24.8131 27.3137 27.8137C24.3131 30.8143 20.2435 32.5 16 32.5C11.7565 32.5 7.68687 30.8143 4.68629 27.8137C1.68571 24.8131 0 20.7435 0 16.5ZM15.0869 23.348L24.2987 11.8323L22.6347 10.5011L14.7797 20.3165L9.216 15.6808L7.85067 17.3192L15.0869 23.348Z" fill="#7300FF"/>
+</g>
+<defs>
+<clipPath id="clip0_1_1893">
+<rect width="32" height="32" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>

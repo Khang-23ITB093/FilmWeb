@@ -1,0 +1,82 @@
+.swiper-pagination-home .swiper-pagination-bullet {
+    --swiper-pagination-bullet-inactive-color: var(
+        --Electric-Violet-200,
+        #dacdff
+    );
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 15px;
+    --swiper-pagination-bullet-size: 32px;
+    --swiper-pagination-color: var(--Electric-Violet-200, #7300ff);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .swiper-pagination-home .swiper-pagination-bullet {
+        --swiper-pagination-bullet-size: 22px;
+        --swiper-pagination-bullet-horizontal-gap: 12px;
+    }
+
+    .swiper-pagination {
+        --swiper-pagination-bottom: 10px!important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    :root {
+        --swiper-navigation-size: 18px!important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .swiper-pagination-home .swiper-pagination-bullet {
+        --swiper-pagination-bullet-size: 15px;
+        --swiper-pagination-bullet-horizontal-gap: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    :root {
+        --swiper-navigation-size: 13px!important;
+    }
+}
+.swiper-pagination-home {
+    position: absolute; /* Đặt vị trí của pagination là tuyệt đối */
+    bottom: 20px; /* Khoảng cách từ đáy slide */
+    left: 50%; /* Đưa nó vào giữa theo chiều ngang */
+    transform: translateX(-50%); /* Căn giữa */
+    z-index: 10; /* Đảm bảo nó nằm trên các phần tử khác */
+}
+
+.swiper-pagination {
+    --swiper-pagination-bottom: 25px;
+}
+
+/* Styling for navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    border: 1px solid var(--White, #fff);
+    background: var(--Transluse2, rgba(48, 0, 119, 0.3));
+    --swiper-navigation-color: var(--White, #fff);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        opacity: 0.75;
+    }
+
+    .swiper-button-lock {
+        display: block !important;
+    }
+
+    .wishlist-btn {
+        border-radius: 0px 16px;
+        border: 1px solid var(--White, #fff);
+        background: var(--Transluse2, rgba(48, 0, 119, 0.3));
+    }
+}
+
+
